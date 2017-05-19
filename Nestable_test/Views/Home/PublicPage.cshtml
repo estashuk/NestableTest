@@ -1,0 +1,13 @@
+﻿@using System.Xml
+@model XmlDocument
+@{
+    ViewBag.Title = "PublicPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <h2>PublicPage</h2>
+
+    <div>
+        @Model.OuterXml
+    </div>
+</body>
